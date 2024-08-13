@@ -2,7 +2,7 @@ import winston from "winston";
 import { select, input } from '@inquirer/prompts';
 
 const logger = winston.createLogger({
-    level: 'info',
+    level: 'debug',
     format: winston.format.json(),
     defaultMeta: { service: 'user-service' },
     transports: [
@@ -72,7 +72,8 @@ async function main() {
                 console.log("Usuário desbloqueou a quinta alternativa secreta!")
         }
     }
-    let result = calculation()
+    let result = calculation();
+    logger.info('Função Calculation chamada com sucesso!');
     console.log(result)
     logger.debug("Resultado: " + result);
 

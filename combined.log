@@ -1,3 +1,15 @@
 {"level":"info","message":"Application started","service":"user-service"}
+{"level":"debug","message":"Primeiro número digitado: 2","service":"user-service"}
+{"level":"debug","message":"Segundo número digitado: 2","service":"user-service"}
+{"level":"debug","message":"Resultado: 4","service":"user-service"}
+{"level":"info","message":"Application started","service":"user-service"}
+{"level":"debug","message":"Primeiro número digitado: s","service":"user-service"}
+{"level":"debug","message":"Segundo número digitado: s","service":"user-service"}
+{"level":"debug","message":"Resultado: NaN","service":"user-service"}
 {"level":"warn","message":"Erro ao realizar cálculo","service":"user-service"}
 {"level":"info","message":"Application started","service":"user-service"}
+{"level":"debug","message":"Primeiro número digitado: a","service":"user-service"}
+{"level":"debug","message":"Segundo número digitado: b","service":"user-service"}
+{"level":"info","message":"Função Calculation chamada com sucesso!","service":"user-service"}
+{"level":"debug","message":"Resultado: NaN","service":"user-service"}
+{"level":"warn","message":"Erro ao realizar cálculo","service":"user-service"}
