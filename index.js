@@ -1,3 +1,5 @@
+//Feito por Thiago Arndt & Eduardo Maia
+
 import winston from "winston";
 import { select, input } from '@inquirer/prompts';
 
