@@ -1,0 +1,3 @@
+{"level":"info","message":"Application started","service":"user-service"}
+{"level":"warn","message":"Erro ao realizar cálculo","service":"user-service"}
+{"level":"info","message":"Application started","service":"user-service"}
