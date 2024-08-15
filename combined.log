@@ -45,3 +45,9 @@
 {"level":"info","message":"Função Calculation executando!","service":"user-service"}
 {"level":"info","message":"Função multiplication executando!","service":"user-service"}
 {"level":"debug","message":"Resultado: 27","service":"user-service"}
+{"level":"info","message":"Application started","service":"user-service"}
+{"level":"debug","message":"Primeiro número digitado: 4","service":"user-service"}
+{"level":"debug","message":"Segundo número digitado: 6","service":"user-service"}
+{"level":"info","message":"Função Calculation executando!","service":"user-service"}
+{"level":"info","message":"Função sum executando!","service":"user-service"}
+{"level":"debug","message":"Resultado: 10","service":"user-service"}

@@ -1,6 +1,6 @@
 import * as operationsService from './operations.js';
 import { select, input } from '@inquirer/prompts';
-import loggerService from './loggerService.js';
+import loggerService from './logger.js';
 
 export async function main() {
     const answer = await select({

@@ -1,4 +1,4 @@
-import loggerService from './loggerService.js';
+import loggerService from './logger.js';
 
 export const sum = (a, b) => {
     loggerService.info('Função sum executando!');
