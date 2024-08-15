@@ -1,8 +1,8 @@
 //Feito por Thiago Arndt & Eduardo Maia
 
-import logger from './modules/logger.js';
+import loggerService from './modules/loggerService.js';
 import * as calculatorInterface from './modules/interface.js';
 
-logger.info('Application started');
+loggerService.info('Application started');
 
 calculatorInterface.main()

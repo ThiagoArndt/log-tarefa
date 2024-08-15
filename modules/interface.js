@@ -1,6 +1,6 @@
 import * as operationsService from './operations.js';
 import { select, input } from '@inquirer/prompts';
-import logger from './logger.js';
+import loggerService from './loggerService.js';
 
 export async function main() {
     const answer = await select({
@@ -27,25 +27,25 @@ export async function main() {
     });
 
     const firstNumber = await input({ message: "Digite o primeiro número: " });
-    logger.debug("Primeiro número digitado: " + firstNumber);
+    loggerService.debug("Primeiro número digitado: " + firstNumber);
     const secondNumber = await input({ message: "Digite o segundo número: " });
-    logger.debug("Segundo número digitado: " + secondNumber);
+    loggerService.debug("Segundo número digitado: " + secondNumber);
 
     let result = calculation();
 
     console.log(result)
-    logger.debug("Resultado: " + result);
+    loggerService.debug("Resultado: " + result);
 
     if (result === undefined) {
-        logger.crit("Resultado não pode ser definido")
+        loggerService.crit("Resultado não pode ser definido")
     }
 
     if (Number.isNaN(result)) {
-        logger.warn("Erro ao realizar cálculo")
+        loggerService.warn("Erro ao realizar cálculo")
     }
 
     function calculation() {
-        logger.info('Função Calculation executando!');
+        loggerService.info('Função Calculation executando!');
 
         switch (answer) {
             case "sum":
@@ -57,7 +57,7 @@ export async function main() {
             case "division":
                 return operationsService.division(firstNumber, secondNumber)
             default:
-                logger.crit("Usuário desbloqueou a quinta alternativa secreta!")
+                loggerService.crit("Usuário desbloqueou a quinta alternativa secreta!")
         }
     }
 }
