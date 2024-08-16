@@ -11,7 +11,7 @@
   "dependencies": {
     "@inquirer/prompts": "^5.3.8",
     "inquirer": "^10.1.8",
-    "winston": "^3.14.1"
-  },
-  "description": ""
+    "winston": "^3.14.1",
+    "winston-loki": "^6.1.2"
+  }
 }
